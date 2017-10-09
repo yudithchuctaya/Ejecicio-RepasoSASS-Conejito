@@ -1,0 +1,99 @@
+
+$color-white:#fff;
+*{
+		padding:0px;
+		margin:0px;
+		header{
+			   
+			    width: 100%;
+				height: 60vh;
+				background-repeat: no-repeat;
+			   position:static; 
+			   nav.navbar {
+			    background-color: #037f99;
+			    height:12vh;
+			    #title{
+			    	font-family: 'Baloo Paaji', cursive;
+			    	color:white;
+			    	font-size:40px;
+			    	margin-left:80px;
+
+			    	& span{
+			    			color:#fa7673;
+			    	}
+			    }
+			}
+			#menu {
+				color: #f4f0bb;
+			}
+
+			.image{
+				width: 100%;
+				height: 94vh;
+				background-image: url(../img/img-1.jpg);
+				background-repeat: no-repeat;
+			    background-size: cover;
+			    background-position: center button;
+			    margin-left:0.3%;
+			    margin-top:-5%;
+			   
+			}
+			#fondo{
+				background:rgba(32,85,100,0.8);
+				height:60vh;
+				text-align: center;
+				margin-left:8%;
+				color:#fff;
+				margin-top:6%;
+				font-size:20px;
+				font-family: 'Baloo Paaji', cursive;
+				.text-bunny{
+					color: #fa7673;
+					font-size:70px;
+				}
+				.text{
+					margin-left:25%;
+					margin-top: 10%;
+				}
+			}
+
+		}
+		h4{
+		    font-family: 'Baloo Paaji', cursive;
+                 color:#fa7673;	
+		}
+		.blue{
+
+			background:#037f99;
+			color:#fff;
+		}
+		.section-1{
+			margin-top:25%;
+			text-align:center;
+			.blue{
+				background:#037f99;
+				color:white;
+				.caption h4{
+                 font-family: 'Baloo Paaji', cursive;
+                 color:#fa7673;
+				}
+				.caption p{
+                 font-family: 'Prompt', sans-serif;
+                 color:#fff;
+				}
+			}
+			
+		}
+		.section-2{
+		background:#037f99;
+		.caption{
+			background:#fff;
+			p,strong{
+                 font-family: 'Prompt', sans-serif;
+                 color:#000;
+
+				}
+			} 
+			
+		}
+}
