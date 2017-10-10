@@ -48,13 +48,19 @@
 				margin-top:6%;
 				font-size:20px;
 				font-family: 'Baloo Paaji', cursive;
-				.text-bunny{
-					color: #fa7673;
-					font-size:70px;
-				}
+				
 				.text{
 					margin-left:25%;
 					margin-top: 10%;
+					.text-bunny{
+					color: #fa7673;
+					font-size:70px;
+				    }
+				    p{
+				    	font-family: 'Ranga', cursive;
+				    	font-size:30px;
+				    }
+
 				}
 			}
 
@@ -144,5 +150,14 @@
 
 
 @media (max-width: 1000px ){
-.rabbit { height:5vh;}
+.rabbit { height:5vh;
+   }
+
+}
+
+@media (min-width: 400px ){
+#abajo-min{
+	margin-top:20%;
+   }
+
 }
